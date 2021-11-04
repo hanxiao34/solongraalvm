@@ -1,0 +1,357 @@
+[
+{
+  "name":"ch.qos.logback.classic.Level",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"ch.qos.logback.classic.PatternLayout",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.filter.LevelFilter",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setLevel","parameterTypes":["ch.qos.logback.classic.Level"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.classic.pattern.DateConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.pattern.LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.pattern.LineOfCallerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.pattern.LineSeparatorConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.pattern.LoggerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.pattern.MessageConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.classic.pattern.ThreadConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.ConsoleAppender",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.OutputStreamAppender",
+  "methods":[
+    {"name":"setEncoder","parameterTypes":["ch.qos.logback.core.encoder.Encoder"] }, 
+    {"name":"setLayout","parameterTypes":["ch.qos.logback.core.Layout"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.core.UnsynchronizedAppenderBase",
+  "methods":[{"name":"addFilter","parameterTypes":["ch.qos.logback.core.filter.Filter"] }]}
+,
+{
+  "name":"ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+  "methods":[
+    {"name":"setCharset","parameterTypes":["java.nio.charset.Charset"] }, 
+    {"name":"setParent","parameterTypes":["ch.qos.logback.core.Appender"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.core.filter.AbstractMatcherFilter",
+  "methods":[
+    {"name":"setOnMatch","parameterTypes":["ch.qos.logback.core.spi.FilterReply"] }, 
+    {"name":"setOnMismatch","parameterTypes":["ch.qos.logback.core.spi.FilterReply"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.core.pattern.IdentityCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.pattern.PatternLayoutBase",
+  "methods":[{"name":"setPattern","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+  "methods":[{"name":"setPattern","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"ch.qos.logback.core.pattern.color.CyanCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.pattern.color.MagentaCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.pattern.color.WhiteCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.pattern.color.YellowCompositeConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.rolling.RollingFileAppender",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setFile","parameterTypes":["java.lang.String"] }, 
+    {"name":"setRollingPolicy","parameterTypes":["ch.qos.logback.core.rolling.RollingPolicy"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.core.rolling.RollingPolicyBase",
+  "methods":[
+    {"name":"setFileNamePattern","parameterTypes":["java.lang.String"] }, 
+    {"name":"setParent","parameterTypes":["ch.qos.logback.core.FileAppender"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setMaxFileSize","parameterTypes":["ch.qos.logback.core.util.FileSize"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.core.rolling.TimeBasedRollingPolicy",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setMaxHistory","parameterTypes":["int"] }, 
+    {"name":"setTimeBasedFileNamingAndTriggeringPolicy","parameterTypes":["ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicy"] }
+  ]}
+,
+{
+  "name":"ch.qos.logback.core.rolling.helper.DateTokenConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.rolling.helper.IntegerTokenConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"ch.qos.logback.core.spi.FilterReply",
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"ch.qos.logback.core.util.FileSize",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"com.hx.App"}
+,
+{
+  "name":"com.hx.config.Config",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hx.controller.DemoController",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"add","parameterTypes":["java.lang.String"] }, 
+    {"name":"get","parameterTypes":["java.lang.String"] }
+  ]}
+,
+{
+  "name":"com.hx.dao.mapper.DemoMapper"}
+,
+{
+  "name":"com.hx.dao.mapper.SqlAnnotation"}
+,
+{
+  "name":"com.hx.dao.mapper.SqlMapper"}
+,
+{
+  "name":"com.hx.dao.mapper.SqlMapper1"}
+,
+{
+  "name":"com.hx.dto.AppxDTO",
+  "allDeclaredFields":true}
+,
+{
+  "name":"com.hx.pojo.AppxModel",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setApp_id","parameterTypes":["int"] }, 
+    {"name":"setApp_key","parameterTypes":["java.lang.String"] }, 
+    {"name":"setAr_is_examine","parameterTypes":["int"] }, 
+    {"name":"setName","parameterTypes":["java.lang.String"] }
+  ],
+  "queriedMethods":[
+    {"name":"getAgroup_id","parameterTypes":[] }, 
+    {"name":"getApp_id","parameterTypes":[] }, 
+    {"name":"getApp_key","parameterTypes":[] }, 
+    {"name":"getAr_is_examine","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getNote","parameterTypes":[] }, 
+    {"name":"setAgroup_id","parameterTypes":["int"] }, 
+    {"name":"setNote","parameterTypes":["java.lang.String"] }
+  ]}
+,
+{
+  "name":"com.hx.utils.DbExec"}
+,
+{
+  "name":"com.hx.utils.DbMap"}
+,
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"java.io.FilePermission"}
+,
+{
+  "name":"java.lang.RuntimePermission"}
+,
+{
+  "name":"java.net.NetPermission"}
+,
+{
+  "name":"java.net.SocketPermission"}
+,
+{
+  "name":"java.net.URLPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"java.security.AllPermission"}
+,
+{
+  "name":"java.security.SecureRandomParameters"}
+,
+{
+  "name":"java.security.SecurityPermission"}
+,
+{
+  "name":"java.util.PropertyPermission"}
+,
+{
+  "name":"javax.management.ObjectName"}
+,
+{
+  "name":"org.h2.Driver"}
+,
+{
+  "name":"org.h2.server.TcpServer",
+  "queryAllPublicMethods":true}
+,
+
+{
+  "name":"org.noear.solon.boot.jlhttp.XPluginImp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.noear.solon.data.integration.XPluginImp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.noear.solon.extend.aspect.XPluginImp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.noear.solon.extend.staticfiles.XPluginImp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.noear.solon.serialization.snack3.XPluginImp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.noear.solon.validation.XPluginImp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.noear.weed.DataItem",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.noear.weed.solon.plugin.XPluginImp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SecureRandom",
+  "methods":[{"name":"<init>","parameterTypes":[] }]},
+
+  {
+    "name": "org.h2.store.fs.FilePathDisk",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathMem",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  }  ,
+  {
+    "name": "org.h2.store.fs.FilePathMemLZF",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathNioMem",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathNioMemLZF",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathNioMapped",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathAsync",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathZip",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathRetryOnInterrupt",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathNio",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.store.fs.FilePathSplit",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.h2.mvstore.db.MVTableEngine",
+    "methods":[{"name":"<init>","parameterTypes":[] }],
+    "allDeclaredFields":true
+  }
+]

@@ -4,26 +4,13 @@
 基于solon框架的一个demo项目
 solon(core)  solon-api(http服务支持) + weed3(orm框架)  +jlhttp(服务容器) +h2(嵌入式数据库) +logback(日志组件)
 
-#### 软件架构
-软件架构说明
 
 
 #### 安装教程
+本项目可以打包为graalvm  native-image 运行。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+https://www.jianshu.com/p/f78a016b30fe
+ 
 
-#### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
 

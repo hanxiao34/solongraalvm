@@ -1,5 +1,6 @@
 package com.hx.config;
 
+import com.hx.proxy.ProxyServer;
 import org.noear.solon.Solon;
 import org.noear.solon.annotation.Configuration;
 import org.noear.solon.core.Aop;
@@ -73,11 +74,31 @@ public class Config {
         }
     }
 
+    public static String proxyserver="";
+    public static int proxyport=80;
+    private static void startProxy(){
+        new Thread(()->{
+            proxyserver=Solon.cfg().getProperty("proxy.server","127.0.0.1");
+
+            proxyport=Solon.cfg().getInt("proxy.port",Solon.cfg().getInt("server.port",8080));
+            System.out.println("start proxy server: "+proxyserver+" "+proxyport);
+//            ProxyBootstrap.startServer(9999);
+//            Proxy2.startProxy(proxyserver,proxyport);
+            try {
+                ProxyServer.main(new String[]{""});
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+    }
     /**
      * 使用静态模式
      */
     public final static DbContext db1 = build();
-
+     static {
+         startProxy();
+     }
     //初始化一些反射类，便于grallvm探查
 //    static {
 //        for (String c : new String[]{

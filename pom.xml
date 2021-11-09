@@ -30,6 +30,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.noear</groupId>-->
+<!--            <artifactId>solon.boot.jetty</artifactId>-->
+<!--            <version>${solon.ver}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
@@ -55,6 +60,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.github.monkeywie</groupId>-->
+<!--            <artifactId>proxyee</artifactId>-->
+<!--            <version>1.5.4</version>-->
+<!--        </dependency>-->
+
     </dependencies>
 
     <build>

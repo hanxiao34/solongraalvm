@@ -3,25 +3,25 @@
   "includes":[
     {
       "pattern":"\\QMETA-INF/solon/solon.boot.jlhttp.properties\\E"
-    }, 
+    },
     {
       "pattern":"\\QMETA-INF/solon/solon.data.properties\\E"
-    }, 
+    },
     {
       "pattern":"\\QMETA-INF/solon/solon.extend.aspect.properties\\E"
-    }, 
+    },
     {
       "pattern":"\\QMETA-INF/solon/solon.extend.staticfiles.properties\\E"
-    }, 
+    },
     {
       "pattern":"\\QMETA-INF/solon/solon.serialization.snack3.properties\\E"
-    }, 
+    },
     {
       "pattern":"\\QMETA-INF/solon/solon.validation.properties\\E"
-    }, 
+    },
     {
       "pattern":"\\QMETA-INF/solon/weed3_solon_plugin.properties\\E"
-    }, 
+    },
     {
       "pattern":"\\QMETA-INF/solon\\E"
     }, 

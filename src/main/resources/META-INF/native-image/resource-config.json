@@ -42,6 +42,9 @@
     }, 
     {
       "pattern":"static/.*"
+    },
+    {
+      "pattern":"META-INF/native-image/.*"
     }
   ]},
   "bundles":[]

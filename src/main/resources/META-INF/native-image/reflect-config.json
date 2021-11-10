@@ -285,6 +285,10 @@
   "name":"org.noear.solon.validation.XPluginImp",
   "methods":[{"name":"<init>","parameterTypes":[] }]}
 ,
+  {
+    "name":"org.noear.solon.extend.impl.ResourceScannerExt",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
 {
   "name":"org.noear.weed.DataItem",
   "allDeclaredFields":true}

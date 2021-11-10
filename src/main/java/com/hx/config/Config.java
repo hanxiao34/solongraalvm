@@ -84,11 +84,11 @@ public class Config {
             System.out.println("start proxy server: "+proxyserver+" "+proxyport);
 //            ProxyBootstrap.startServer(9999);
 //            Proxy2.startProxy(proxyserver,proxyport);
-            try {
-                ProxyServer.main(new String[]{""});
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+//            try {
+//                ProxyServer.main(new String[]{""});
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
         }).start();
 
     }
